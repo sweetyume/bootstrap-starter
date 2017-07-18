@@ -11,61 +11,54 @@
 
 <body>
   <!-- YOUR CODE -->
-  <!-- NAVIGATION -->
-  <nav class="navbar ">
-    <div class="container">
-      <div class="navbar-header">
-        <a class="navbar-brand" href="#"><img src="images/udacity-logo.png" alt="logo Udacity"></a>
-      </div>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Explore</a></li>
-        <li><a href="#">Nanodegree</a></li>
-        <li><a href="#">Catalog</a></li>
-        <li><a href="#">For Business</a></li>
-        <li><a href="#">Sign in</a></li>
-        <button class="btn navbar-btn">Get Started</button>
-      </ul>
-    </div>
-  </nav>
-  <!-- FIN NAVIGATION -->
-  <!-- SECTION HERO_HOMEPAGE -->
-  <section class="hero-homepage" id="hero-homepage">
-    <!-- hero video -->
-    <div class="container">
-      <div class="row">
-        <div class="col-md-8">
-          <div class="embed-responsive embed-responsive-4by3">
-            <video width="auto" height="auto">
-                  <source src="images/hero-video.mp4"  type="video/mp4">
-                </video>
-          </div>
+  <div class="container-fluid" id="header-bkg-container">
+    <!-- NAVIGATION -->
+    <nav class="navbar">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#"><img src="images/udacity-logo.png" alt="logo Udacity"></a>
         </div>
-        <!-- hero contents -->
-        <div class="col-md-4">
-          <div class="hero-module">
-            <div class="row hero-module-content">
-              <div class="col-md-5">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#">Explore</a></li>
+          <li><a href="#">Nanodegree</a></li>
+          <li><a href="#">Catalog</a></li>
+          <li><a href="#">For Business</a></li>
+          <li><a href="#">|</a></li>
+          <li><a href="#">Sign in</a></li>
+          <li>
+            <button class="btn navbar-btn">Get Started</button>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- FIN NAVIGATION -->
+    <!-- SECTION HERO_HOMEPAGE -->
+    <section class="hero-homepage" id="hero-homepage">
+      <!-- hero video -->
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <div class="embed-responsive embed-responsive-4by3">
+              <video width="auto" height="auto">
+                    <source src="images/hero-video.mp4"  type="video/mp4">
+                  </video>
+            </div>
+          </div>
+          <!-- hero contents -->
+          <div class="col-md-4">
+            <div class="hero-module">
+              <div class="row hero-module-content">
                 <img src="images/enroll.jpg" alt="">
-              </div>
-              <div class="col-md-7 hero-text">
                 <h6 id='enroll'>ENROLL TODAY!</h6>
                 <p>Win a ticket to TC Disrupt SF</p>
               </div>
-            </div>
-            <div class="row hero-module-content">
-              <div class="col-md-5">
+              <div class="row hero-module-content">
                 <img src="images/apply.jpg" alt="">
-              </div>
-              <div class="col-md-7 hero-text">
                 <h6 id="apply">APPLY TODAY!</h6>
                 <p>Win a ticket to TC Disrupt SF</p>
               </div>
-            </div>
-            <div class=" row hero-module-content">
-              <div class="col-md-5">
+              <div class="row hero-module-content">
                 <img src="images/new.jpg" alt="">
-              </div>
-              <div class="col-md-7 hero-text">
                 <h6 id="new">NEW!</h6>
                 <p>Win a ticket to TC Disrupt SF</p>
               </div>
@@ -73,8 +66,9 @@
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
+  </div>
+
   <!-- SECTION PARTNERS -->
   <section class="partners" id="partners">
     <div class="row">
@@ -167,13 +161,17 @@
       </div>
     </div>
   </section>
+
   <!-- SECTION CLASSROOM -->
   <section class="classroom container-fluid" id="classroom">
     <div class="container">
+      <div class="row text-center">
+        <h2>The Udacity Advantages</h2>
+      </div>
       <div class="row">
         <div class="col-md-5">
           <div><img src="images/competitive-skill.png" alt=""></div>
-          <h3 id="classroom-skill">Master the most
+          <h3 id="classroom-skill">Master the most <br>
 competitive skills</h3>
           <p>Our Nanodegree programs are built with the world's most forward–thinking companies–Google, Facebook, AT&T, IBM, GitHub, and more. Our expert project reviewers, mentors and coaches ensure that you're job-ready.</p>
         </div>
@@ -187,7 +185,7 @@ competitive skills</h3>
         </div>
         <div class="col-md-offset-1 col-md-5">
           <div><img src="images/get-hired.png" alt=""></div>
-          <h3 id="classroom-hired">Get hired by
+          <h3 id="classroom-hired">Get hired by <br>
 world–changing companies</h3>
           <p>Hiring partnerships with leaders like IBM, Mercedes–Benz, Didi Chuxing, and more open amazing career opportunities... and Blitz gives you a new path to getting hired.</p>
         </div>
@@ -200,11 +198,11 @@ world–changing companies</h3>
         </div>
         <div class="col-md-6">
           <img src="images/udacity-advantages-part3.png" alt="">
-
         </div>
       </div>
     </div>
   </section>
+
   <!-- SECTION PROGRAMS -->
   <section class="programs" id="programs">
 
