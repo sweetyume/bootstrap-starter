@@ -1,4 +1,11 @@
 /* Bootstrap Customize */
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+/*------------------------------------*\
+          SECTION NAVBAR
+\*------------------------------------*/
+
 .navbar{
   background: linear-gradient(160deg, #02CCBA 0%, #AA7ECD 100%);
 
@@ -56,6 +63,10 @@
   border-bottom-left-radius: .5em;
 }
 
+/*------------------------------------*\
+          SECTION PARTNERS
+\*------------------------------------*/
+
 .partners {
   width: 80%;
   margin: 0 auto;
@@ -64,3 +75,53 @@
   text-align: center;
   padding: 20px;
 }
+/*------------------------------------*\
+          SECTION TESTIMONIALS
+\*------------------------------------*/
+h3 {
+    font-size: 1.75rem;
+    line-height: 2.25rem;
+    font-style: italic;
+}
+h6 {
+  text-align: center;
+}
+.carousel-item.active,
+.carousel-item-next,
+.carousel-item-prev{
+    display:block;
+}
+.carousel-text-author {
+  font-style: semi-bold;
+}
+.cards {
+  display: flex;
+  justify-content: space-between;
+}
+.card-img-top {
+  border-radius: 5px;
+}
+
+/*------------------------------------*\
+      SECTION FUTURE
+\*------------------------------------*/
+
+
+/*------------------------------------*\
+      SECTION CLASSROOM
+\*------------------------------------*/
+
+
+/*------------------------------------*\
+      SECTION PROGRAMS
+\*------------------------------------*/
+
+
+/*------------------------------------*\
+      SECTION CONTACTS
+\*------------------------------------*/
+
+
+/*------------------------------------*\
+          FOOTER
+\*------------------------------------*/
