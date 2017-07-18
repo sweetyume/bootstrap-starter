@@ -1,1 +1,66 @@
 /* Bootstrap Customize */
+.navbar{
+  background: linear-gradient(160deg, #02CCBA 0%, #AA7ECD 100%);
+
+}
+.navbar-right{
+  padding-top: 1em;
+}
+
+.navbar-btn{
+  background-color: #02d1bf;
+  color: #FFF;
+}
+
+
+.hero-homepage {
+  background: linear-gradient(160deg, #02CCBA 0%, #AA7ECD 100%);
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-module {
+  margin-top: 50px;
+  height: 60%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+
+}
+.hero-module-content {
+  padding: 10px;
+
+}
+.hero-text{
+  background-color : #FFF;
+
+}
+.hero-module-content h6{
+  font-size: .7em;
+  font-weight: 700;
+}
+#enroll{
+  color: #86E0B3;
+}
+#apply{
+  color :#9AEBE4;
+}
+#new{
+  color: #AF5DEE;
+}
+.hero-module-content p{
+  font-size: 1.3em;
+}
+.hero-module-content img{
+  border-top-left-radius: .5em;
+  border-bottom-left-radius: .5em;
+}
+
+.partners {
+  width: 80%;
+  margin: 0 auto;
+}
+.partners img {
+  text-align: center;
+  padding: 20px;
+}
