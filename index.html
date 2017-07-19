@@ -7,7 +7,9 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Bootstrap Boilerplate</title>
   <link rel="stylesheet" href="./css/index.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js">
 </head>
 
 <body>
@@ -134,45 +136,50 @@
           <img src="images/amazing-community.jpg" alt="images ">
         </div>
         <!-- CARDS -->
-        <div class="cards container">
-          <div class="card card-inverse text-center col-md-3" style="max-width: 202px;">
+        <div class="card-deck">
+    <div class="card">
+      <img class="card-img-top" src="images/react.jpg" alt="Card image cap">
+      <div class="card-block">
+        <h4 class="card-title">React</h4>
+      </div>
+    <div class="card">
+      <img class="card-img-top" src="images/intro-programming.jpg" alt="Card image cap">
+      <div class="card-block">
+        <h4 class="card-title">Intro to Programming</h4>
+      </div>
 
-          <!-- Image -->
-          <img class="card-img-top" src="images/react.jpg" alt="Photo React">
+    </div>
+    <div class="card">
+      <img class="card-img-top overlay" src="images/vr-developer.jpg" alt="Card image cap">
+      <div class="card-block">
+        <h4 class="card-title">VR Developer</h4>
+      </div>
 
-          <!-- Text Overlay -->
-          <div class="card-img-overlay">
-          <h4 class="card-title">New</h4>
-          <p class="card-text"></p>
-          </div>
+    </div>
+    <div class="card">
+      <img class="card-img-top overlay" src="images/vr-developer.jpg" alt="Card image cap">
+      <div class="card-block">
+        <h4 class="card-title">VR Developer</h4>
+      </div>
 
-          </div>
-          <div class="card card-inverse text-center col-md-3" style="max-width: 202px;">
+    </div>
+    <div class="card">
+      <img class="card-img-top overlay" src="images/vr-developer.jpg" alt="Card image cap">
+      <div class="card-block">
+        <h4 class="card-title">VR Developer</h4>
+      </div>
 
-          <!-- Image -->
-          <img class="card-img-top" src="images/react.jpg" alt="Photo React">
+    </div>
+    <div class="card">
+      <img class="card-img-top overlay" src="images/vr-developer.jpg" alt="Card image cap">
+      <div class="card-block">
+        <h4 class="card-title">VR Developer</h4>
+      </div>
 
-          <!-- Text Overlay -->
-          <div class="card-img-overlay">
-          <h4 class="card-title">React</h4>
-          <p class="card-text">React</p>
-          </div>
+    </div>
 
-          </div>
-
-          <div class="card card-inverse text-center col-md-3" style="max-width: 202px;">
-
-          <!-- Image -->
-          <img class="card-img-top" src="images/react.jpg" alt="Photo React">
-
-          <!-- Text Overlay -->
-          <div class="card-img-overlay">
-          <h4 class="card-title">VR Developer</h4>
-          <p class="card-text">React</p>
-          </div>
-          </div>
-
-        </div>
+  </div>
+</div>
 
     </section>
     <!-- SECTION INDIVIDUAL NANODEGREES -->
@@ -194,10 +201,16 @@
     <section class="programs" id="programs">
 
     </section>
-    <!-- SECTIONCONTACTS -->
-    <section class="contacts" id="contacts">
+    <!-- SECTION CONTACTS -->
 
-    </section>
+      <section id="contacts">
+    <div class="container">
+      <h1 class="white contacts-text">Contact Us</h1>
+      <p class="large-white contacts-text">If you have a question, we have an answer. If you need something, we'll help you.
+        Contact us anytime.</p>
+      <a href="#" class="button-contact btn-primary">CONTACT US NOW</a>
+    </div>
+  </section>
 
     <!-- FOOTER -->
     <footer class="footer">

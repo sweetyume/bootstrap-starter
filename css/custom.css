@@ -1,24 +1,26 @@
 /* Bootstrap Customize */
-body {
+
+* {
   font-family: 'Open Sans', sans-serif;
 }
+
+
 /*------------------------------------*\
           SECTION NAVBAR
 \*------------------------------------*/
 
-.navbar{
+.navbar {
   background: linear-gradient(160deg, #02CCBA 0%, #AA7ECD 100%);
-
 }
-.navbar-right{
+
+.navbar-right {
   padding-top: 1em;
 }
 
-.navbar-btn{
+.navbar-btn {
   background-color: #02d1bf;
   color: #FFF;
 }
-
 
 .hero-homepage {
   background: linear-gradient(160deg, #02CCBA 0%, #AA7ECD 100%);
@@ -32,36 +34,42 @@ body {
   overflow: hidden;
   display: flex;
   flex-direction: column;
-
 }
+
 .hero-module-content {
   padding: 10px;
-
 }
-.hero-text{
-  background-color : #FFF;
 
+.hero-text {
+  background-color: #FFF;
 }
-.hero-module-content h6{
+
+.hero-module-content h6 {
   font-size: .7em;
   font-weight: 700;
 }
-#enroll{
+
+#enroll {
   color: #86E0B3;
 }
-#apply{
-  color :#9AEBE4;
+
+#apply {
+  color: #9AEBE4;
 }
-#new{
+
+#new {
   color: #AF5DEE;
 }
-.hero-module-content p{
+
+.hero-module-content p {
   font-size: 1.3em;
 }
-.hero-module-content img{
+
+.hero-module-content img {
   border-top-left-radius: .5em;
   border-bottom-left-radius: .5em;
 }
+
 
 /*------------------------------------*\
           SECTION PARTNERS
@@ -71,36 +79,52 @@ body {
   width: 80%;
   margin: 0 auto;
 }
+
 .partners img {
   text-align: center;
   padding: 20px;
 }
+
+
 /*------------------------------------*\
           SECTION TESTIMONIALS
 \*------------------------------------*/
+
 h3 {
-    font-size: 1.75rem;
-    line-height: 2.25rem;
-    font-style: italic;
+  font-size: 1.75rem;
+  line-height: 2.25rem;
+  font-style: italic;
 }
+
 h6 {
   text-align: center;
 }
-.carousel-item.active,
-.carousel-item-next,
-.carousel-item-prev{
-    display:block;
+
+.carousel-item.active, .carousel-item-next, .carousel-item-prev {
+  display: block;
 }
+
 .carousel-text-author {
   font-style: semi-bold;
 }
-.cards {
+
+.card-deck {
   display: flex;
-  justify-content: space-between;
+  flex-direction: row;
 }
+
 .card-img-top {
   border-radius: 5px;
 }
+
+.card-title {
+  padding: 20px 24px;
+  height: 5.25rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  position: relative;
+}
+
 
 /*------------------------------------*\
       SECTION FUTURE
@@ -121,6 +145,63 @@ h6 {
       SECTION CONTACTS
 \*------------------------------------*/
 
+#contacts {
+  height: auto;
+  background: url(images/contact-us.jpg) center;
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+}
+
+#contacts h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  line-height: 3rem;
+}
+
+#contacts p {
+  text-align: center;
+}
+
+.button-contact {
+  width: 13.75rem;
+  color: #fff;
+  background-color: #02b3e4;
+  border: 0.125rem solid transparent;
+  border-color: transparent;
+  display: block;
+  cursor: pointer;
+  appearance: none;
+  user-select: none;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: top;
+  text-decoration: none;
+  vertical-align: middle;
+  height: 3rem;
+  padding: 0 0.5rem;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 600;
+  font-size: 0.8125rem;
+  line-height: 2.625rem;
+  -webkit-font-smoothing: antialiased;
+  border-radius: 0.25rem;
+  letter-spacing: 0.09375rem;
+  transition: all 0.3s ease;
+}
+
+
+}
+.button-contact:hover {
+  outline: none;
+  color: white;
+  border-color: transparent;
+  background-color: #029fcb;
+  box-shadow: 2px 4px 8px 0px rgba(46, 61, 73, 0.2);
+  text-decoration: none;
+
+}
 
 /*------------------------------------*\
           FOOTER
